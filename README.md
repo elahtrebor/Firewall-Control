@@ -1,9 +1,11 @@
 # Firewall-Control
 Firewall Control server / client   - Non Standardized Protocol
+
 Requirements:  iptables 
+
 Tested on: debian/ubuntu 
 
-Purpose: Silent UDP Socket that listens for encrypted messages and has a hook into IP Tables to control adding whitelist entries.
+Purpose: Silent UDP Socket that listens for encrypted messages and has a hook into IP Tables to control adding whitelist entries. This is preconfigured for iptables SSH access but you may use it for any protocol.
 
 This has stopped many ip's from scanning my systems and is less intensive on the machine due to the whitelist.
 
