@@ -1,7 +1,7 @@
 # Firewall-Control
 Firewall Control server / client   - Non Standardized Protocol
 
-Requirements:  iptables 
+Requirements:  iptables , openssl, PERL
 
 Tested on: debian/ubuntu 
 
